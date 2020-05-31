@@ -4,8 +4,9 @@
 namespace FridayThe13th
 {
 	public class JsonParser
-	{
-
+	{ 
+		public string author() { return "https://github.com/jprichardson/FridayThe13th"; }
+	
 		private int _line = 0;
 		private int _column = 0;
 
@@ -337,12 +338,12 @@ namespace FridayThe13th
 		}
 
 	}
-}
 
 
 
-namespace FridayThe13th
-{
+
+
+
 	public class JsonObject : System.Dynamic.DynamicObject, System.ComponentModel.INotifyPropertyChanged
 	{
 
